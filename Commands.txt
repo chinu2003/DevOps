@@ -1,0 +1,39 @@
+*Commands*
+$ git init 
+$ git status 
+$ git config --global --list 
+$ git config --global user.name "chinu2003" 
+$ git config --global user.email "chinmaymondkar2003@gmail.com" 
+$ git config --global --list 
+$ git add test1.txt 
+$ git commit -m "first commit" 
+*Push*
+$ git remote add origin https://github.com/chinu2003/DevOps.git 
+$ git remote show origin       
+$ git push origin main 
+$ ssh-keygen -t rsa -b 4094 -C "chinmaymondkar2003@gmail.com" 
+
+*PULL* 
+$ git init 
+$ git remote add origin https://github.com/chinu2003/red.git 
+$ git remote show origin 
+$ git pull origin main 
+
+*Branch, create and Marge pull request*
+
+Create repo abcd add readme file
+Add one file abc.txt commit change
+Create new branch demo
+Create one more file shopping list ,add content-list and commit change
+Create new branch shopping list
+From branch shopping list make changes in shopping list file and commit changes
+Go to pull-request tab 
+Compare and pull request
+Create pull request
+Merge pull request
+Confirm merge
+Check from main branch shopping list is updated
+
+*Create Forked  request*
+https://github.com/TheCurryman/Githubintro 
+select fork option top right-side

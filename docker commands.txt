@@ -1,0 +1,19 @@
+Docker commands
+
+--version
+docker info
+docker pull alpine
+docker images
+check in docker app
+docker run alpine sh
+docker ps -a (list all docker container)
+docker run -d -it alpine sh
+docker run -it alpine sh
+#ls  and #exit
+docker run -it --name=TE alpine sh
+open new terminal 
+docker ps -a
+docker stop TE
+docker rm TE
+docker ps -a
+docker rmi -f alpine
